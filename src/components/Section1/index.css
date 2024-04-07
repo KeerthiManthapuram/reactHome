@@ -1,0 +1,142 @@
+.section1-bg-container{
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    width: 100vw;
+    background-color: #ADD8E6;
+} 
+
+.left-right-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 16vh;
+    width: 100vw;
+    padding: 10px;
+}
+.left-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+}
+.right-section{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+}
+.sec1-heading{
+    font-family: "Roboto";
+    color: #000000;
+    font-weight: bold;
+    font-size: 19px;
+    
+}
+.text{
+    font-family: "Roboto";
+    color: #000000;
+    font-size: 14px;
+    margin-top: 0px;
+}
+.cards-unordered-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.buttons-holder{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+.button1{
+    height: 25px;
+    min-width: 100px;
+    border: none;
+    background-color: blue;
+    color: #ffffff;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.button2{
+    height: 25px;
+    min-width: 100px;
+    border: none;
+    background-color: red;
+    color: #ffffff;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.form-holder{
+    height: 150px;
+    width: 400px;
+    border-color: #6c696900;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 2px 2px #6c696900 solid;
+    border-radius: 10px;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+}
+.sec1-form-text{
+    font-family: "Roboto";
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0px;
+    text-align: center;
+}
+.input-element{
+    height: 13px;
+    width: 80%;
+    border: #000000 solid 2px;
+    border-radius: 5px;
+    font-family: "Roboto";
+    font-size: 11px;
+    color: #000000;
+    margin-top: 5px;
+}
+.call-back-button{
+    height: 18px;
+    width: 80%;
+    border: none;
+    background-color: blue;
+    color: #ffffff;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 7px;
+}
+.popup-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.success-text{
+    font-family: "Roboto";
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+}
+.close-button{
+    height: 18px;
+    width: 80px;
+    border: none;
+    font-family: "Roboto";
+    font-size: 15px;
+    background-color: red;
+    color: #ffffff;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 5px;
+}

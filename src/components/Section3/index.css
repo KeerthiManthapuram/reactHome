@@ -1,0 +1,25 @@
+
+.section3-bg-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    width: 100vw;
+}
+.sec3-heading{
+    font-family: "Roboto";
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.unordered-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0px;
+}
+.line{
+    color: #301934;
+    width:  10%;
+}

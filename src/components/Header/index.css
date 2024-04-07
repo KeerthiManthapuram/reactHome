@@ -1,0 +1,52 @@
+.Header-container{
+    height: 4vh;
+    width: 100vw;
+    background-color: #301934;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.bars-holder{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: 15%;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.nav-text{
+    color: #ffffff;
+    font-size: 10px;
+    font-family: "Roboto";
+    font-weight: 500;
+    margin-left: 20px;
+}
+.links-holder{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+    margin-right: 20px;
+}
+
+.login-holder{
+    height: 20px;
+    width: 115px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+.login-text{
+    color: #301934;
+    font-size: 10px;
+    font-family: "Roboto";
+    font-weight: 500;
+    margin-left: 10px;
+}
